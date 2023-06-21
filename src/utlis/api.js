@@ -1,4 +1,5 @@
 import axios from "axios";
+import APIKEY from "apidata";
 
 
 const movieApi = axios.create({
@@ -7,7 +8,7 @@ const movieApi = axios.create({
      hl: 'en',gl: 'IN'
    },
    headers: {
-     'X-RapidAPI-Key': "d4003de688msh9c3ad4f44e27172p1d1e5djsnd8ef5e9d3a17",
+     'X-RapidAPI-Key': "APIKEY",
      'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
    },
  },
